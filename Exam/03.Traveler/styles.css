@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Karla;
+}
+
+body {
+    font: inherit;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("03.Traveler_Resources/images/poster.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    a {
+        display: block;
+    }
+
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+
+        nav ul{
+            list-style: none;
+            display: flex;
+
+            li {
+                display: flex;
+                padding: 0 2.5em;
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                    text-wrap: nowrap;
+                    color: #fff;
+                    font-family: Karla;
+                    font-size: 1.2em;
+                 }
+            }
+        }
+    }
+
+    .header-content {
+        display:flex;
+        flex-direction: column;
+        gap: 8em;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .main-title {
+        padding-top: 2em;
+        font-size: 6.7em;
+        text-align: center;
+        color: #fff;
+        font-family: "Cormorant+Infant";
+        font-weight: 400;
+    }
+
+    .header-description {
+        color: white;
+        padding-bottom: 5em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
+
+main {
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .comment {
+        background-color: #e14747;
+        color: #fff;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    background-color: #f8f0e9;
+
+    .main-content1 {
+        display: flex;
+        h2 {
+            font-style: italic;
+
+            padding-bottom: 2.5em;
+        }
+
+        p {
+            padding: 3em 0;
+
+        }
+    }
+
+    .main-comment1 {
+        h4 {
+            font-size: 1.5em;
+            padding: 1em 0;
+        }
+
+        p {
+            padding: 1em;
+        }
+    }
+
+    .main-content2 {
+        padding-top: 3em;
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        align-items: center;
+
+
+        img {
+            max-width: 550px;
+            height: auto;
+
+        }
+
+        h2 {
+             text-align: center;
+        }
+
+        p {
+            font-size: 1.24em;
+        }
+
+        .button1 {
+            align-self: flex-start;
+
+        }
+
+        .button2 {
+            margin-bottom: 4em;
+        }
+    }
+
+    .main-comment2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 5em;
+
+        h4 {
+            font-size: 3.5em;
+            padding: 1em 0;
+            font-weight: 500;
+            font-family: "Cormorant+Infant";
+        }
+
+        p {
+            padding-bottom: 4em;
+        }
+
+        .comment-button {
+            border: none;
+            background-color: #fad87a;
+            border-radius: 3em;
+            padding: 1em 1em;
+            font-size: 1.1em;
+        }
+    }
+
+    h2 {
+        font-size: 2.85em;
+        font-family: "Cormorant+Infant";
+        line-height: 1;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #352b2a;
+
+    a {
+        padding: 3em 0 0 5em;
+        width: 300px;
+    }
+
+    p {
+        color: white;
+        padding-bottom: 1.5em;
+        padding-left: 7em;
+    }
+
+    .rights {
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 0.9em;
+        padding-bottom: 3.5em;
+        margin-left: 11px;
+    }
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.comment-containter {
+    width: 550px;
+    margin: 0 auto;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 230px;
+    padding-left: 2em;
+    padding-bottom: 2em;
+
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    text-overflow: clip;
+    border: 2px solid black;
+    border-radius: 0.3em;
+    background-color: #fff;
+
+    padding: 0.2em 1em;
+
+    font-size: 1em;
+
+    letter-spacing: -0.08em;
+}
